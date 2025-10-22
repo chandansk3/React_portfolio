@@ -1,0 +1,44 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+    height: 30px;
+    
+  }
+  
+  .logo h2 {
+    margin: 0;
+    font-size: 24px;
+  
+  }
+  .first-letter {
+    color: red; /* Change color */
+    font-size: 2rem; /* Optional: Adjust size */
+    font-weight: bold; /* Optional: Make it bold */
+  }
+  
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li {
+    display: inline;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #ff9800;
+  }
+  

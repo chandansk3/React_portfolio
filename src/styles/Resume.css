@@ -1,0 +1,94 @@
+/* Resume Page Styles */
+body{
+  background-color: black ;
+  background: linear-gradient( to Right, black, #3d3d3d);
+  
+
+ }
+
+.resume-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .resume-container h1 {
+    font-size: 2.5rem;
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  
+
+
+  
+.btn {
+  padding: 12px 24px;
+  border: 2px solid rgb(94, 94, 2);
+  background: transparent;
+  color: rgb(94, 94, 2);
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background: white;
+  color: black;
+  transform: scale(1.05);
+}
+  
+  .resume-section {
+    margin-top: 30px;
+    text-align: left;
+  }
+  
+  .resume-section h2 {
+    font-size: 2rem;
+    color:orange;
+    border-bottom: 2px solid greenyellow;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .resume-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .resume-section:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  
+  
+  .resume-section li {
+    margin-bottom: 15px;
+    padding: 15px;
+    background:black;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .resume-section h3 {
+    font-size: 1.5rem;
+    color: rgb(94, 94, 2);
+    margin-bottom: 5px;
+  }
+  
+  .resume-section p {
+    font-size: 1rem;
+    color:gray;
+    font-family: cursive;
+  }
+  .abc {
+    color: gray;
+  
+  }
+  a{
+    text-decoration: none;
+  }
+  
+  
